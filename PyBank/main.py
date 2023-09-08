@@ -59,7 +59,7 @@ with open (profitanalysis,"w") as profitdata:
     output = (f"Profit Analysis\n"
     f"----------------\n"
     f"Total Months: {total_months}\n"
-    f"Total: {total_net}\n"
+    f"Total: ${total_net}\n"
     f"Average Change: ${round(avg_change,2)}\n"
     f"Greatest Increase in Profits: {greatest_increase[0]} ${greatest_increase[1]}\n"
     f"Greatest Decrease in Profits: {greatest_decrease[0]} ${greatest_decrease[1]}")
